@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif; 
+}
+
+p {
+    font-size: 34px; 
+}
+
+input, button {
+    margin: 10px;
+    font-size: 18px; 
+}
+#reverse-button {
+    padding: 10px 20px; 
+    background-color: #4CAF50; 
+    color: white; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+  }
+  
+  #reverse-button:hover {
+    background-color: #45a049; 
+  }
